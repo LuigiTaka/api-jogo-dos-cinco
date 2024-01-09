@@ -1,0 +1,32 @@
+# Use root/example user/password credentials
+version: '3.1'
+
+services:
+  php:
+    container_name: "jdc-php"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html/
+  mysql:
+    container_name: "jdc-db"
+    ports:
+      - "3307:3306"
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
+      MYSQL_DATABASE: $MYSQL_DATABASE
+      MYSQL_USER: $MYSQL_USER
+      MYSQL_PASSWORD: $MYSQL_PASSWORD
+    command: [ 'mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci' ]
+    volumes:
+      - mysqlvolume:/var/lib/mysql
+    depends_on:
+      - php
+
+volumes:
+  mysqlvolume:
+    driver: local
