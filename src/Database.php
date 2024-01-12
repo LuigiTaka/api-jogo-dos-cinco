@@ -6,10 +6,16 @@ class Database
     {
         static $conn = false;
         if (empty($conn)) {
-            $conn = new PDO("mysql:host=jdc-db;dbname=jogo_dos_cinco", "apresentador", "umasenhacomplicada");
+            $params = [
+                "host" => $_ENV['MYSQL_HOST'],
+                "dbname" => $_ENV['MYSQL_DATABASE'],
+                "username" => $_ENV['MYSQL_USER'],
+                'password' => $_ENV['MYSQL_PASSWORD']
+            ];
+
+            $conn = new PDO("mysql:host=$params[host];dbname=$params[dbname]", "$params[username]", "$params[password]");
         }
 
         return $conn;
     }
-
 }

@@ -11,6 +11,12 @@ services:
       - "80:80"
     volumes:
       - .:/var/www/html/
+    environment:
+      TOKEN_API: $TOKEN_API
+      MYSQL_DATABASE: $MYSQL_DATABASE
+      MYSQL_USER: $MYSQL_USER
+      MYSQL_PASSWORD: $MYSQL_PASSWORD
+      MYSQL_HOST: $MYSQL_HOST
   mysql:
     container_name: "jdc-db"
     ports:

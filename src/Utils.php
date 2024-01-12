@@ -87,7 +87,10 @@ abstract class Utils
     private static function getValidBearerToken(): string
     {
         //@todo Melhorar essa palhaçada
-        return "97a150fa8476669a43100b0e37ed55f6bad86cf49ca74e5b90e2caa233ae6821bc947e97ba8183097e6a059a9d7fbdcc4ec5cf100cc8c998165d1398c27579be";
+        if (empty($_ENV['TOKEN_API'])){
+            throw new ErrorException("Váriavel de ambiente não informada!");
+        }
+        return $_ENV['TOKEN_API'];
     }
 
     private static function responseStatus(int $status)
