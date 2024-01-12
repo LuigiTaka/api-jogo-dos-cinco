@@ -6,7 +6,7 @@ require_once __DIR__ . "/../src/PerguntaModel.php";
 
 $connection = Database::get();
 
-$method = $_SERVER['REQUEST_METHOD']??"GET";
+$method = $_SERVER['REQUEST_METHOD'] ?? "GET";
 
 
 $perguntaModel = new PerguntaModel($connection);
@@ -30,6 +30,7 @@ LIMIT 10");
         "Content-Type: application/json",
         "Cache-Control: public, max-age=20"
     ];
+    $pergunta['pergunta'] = html_entity_decode( $pergunta['pergunta'] );
 
     echo Utils::response([
         "pergunta" => $pergunta['pergunta'],
@@ -39,7 +40,7 @@ LIMIT 10");
 } else if ($method === 'POST') {
 
 
-    $bearerToken = Utils::getBearerToken()??"";
+    $bearerToken = Utils::getBearerToken() ?? "";
     $isValid = Utils::isValidToken($bearerToken);
     if (!$isValid) {
         echo Utils::response(["token" => $bearerToken], [], 404);
@@ -92,23 +93,24 @@ LIMIT 10");
 
 } else if ($method === 'PUT') {
 
-
     $bearerToken = Utils::getBearerToken();
+
     $isValid = Utils::isValidToken($bearerToken);
     if (!$isValid) {
         echo Utils::response(["token" => $bearerToken], [], 404);
         exit();
     }
 
+
     //@todo melhorar isso
-    parse_str(file_get_contents("php://input"),$putData);
+    parse_str(file_get_contents("php://input"), $putData);
 
 
     $idPergunta = $putData['id_pergunta'] ?? false;
     $pergunta = $putData['pergunta'] ?? false;
     $respostas = $putData['respostas'] ?? [];
 
-    if (empty($idPergunta)) {
+    if (empty($idPergunta) && !($idPergunta = $perguntaModel->getPerguntaId($pergunta))) {
         echo Utils::response([
             "message" => "Nenhum id de pergunta informado!",
         ], ["Content-Type: application/json"], 427);
@@ -120,22 +122,27 @@ LIMIT 10");
             "message" => "Nenhuma resposta informada!",
         ], ["Content-Type: application/json"], 427);
         exit();
-    } elseif (count($respostas) < 2) {
+    }
+    /*    elseif (count($respostas) < 2) {
 
-        echo Utils::response([
-            "message" => "Informe ao menos duas respostas!",
-        ], ["Content-Type: application/json"], 427);
-        exit();
+            echo Utils::response([
+                "message" => "Informe ao menos duas respostas!",
+            ], ["Content-Type: application/json"], 427);
+            exit();
+        } */
+
+    if (!is_array( $respostas )){
+        $respostas = [ $respostas ];
     }
 
-
-    $perguntaModel->insertRespostas( $idPergunta,$respostas );
+    $perguntaModel->insertRespostas($idPergunta, $respostas);
 
     echo Utils::response([
         "id_pergunta" => $idPergunta,
         "mensagem" => "Respostas adicionadas!"
     ], [
         "Content-Type: application/json",
-    ]);
+    ],200);
+    exit();
 
 }
