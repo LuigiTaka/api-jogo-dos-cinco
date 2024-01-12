@@ -1,0 +1,1 @@
+php ./cli/init.php && apache2-foreground
