@@ -49,7 +49,7 @@ SQL;
     }
 
 
-    private function getPerguntaId(string $pergunta)
+    public function getPerguntaId(string $pergunta)
     {
         $query = <<<SQL
 SELECT id FROM jogo_dos_cinco.perguntas WHERE LOWER(pergunta) = LOWER(?) LIMIT 1
