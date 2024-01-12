@@ -1,0 +1,332 @@
+[
+  {
+    "pergunta": "animes de superpoderes",
+    "respostas": [
+      "naruto",
+      "kill la kill",
+      "My Hero Academia"
+    ]
+  },
+  {
+    "pergunta": "Mangakás famosos",
+    "respostas": [
+      "Masashi Kishimoto (Naruto)",
+      "Eiichiro Oda (One Piece)",
+      "Akira Toriyama (Dragon Ball)"
+    ]
+  },
+  {
+    "pergunta": "Animes de romance",
+    "respostas": [
+      "Toradora!",
+      "Your Lie in April",
+      "Clannad",
+      "Kaichou wa Maid-sama!",
+      "Lovely★Complex"
+    ]
+  },
+  {
+    "pergunta": "Animes de fantasia",
+    "respostas": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Attack on Titan",
+      "Sword Art Online",
+      "Re:Zero - Starting Life in Another World",
+      "Made in Abyss"
+    ]
+  },
+  {
+    "pergunta": "Personagens principais femininas em animes de ação",
+    "respostas": [
+      "Sakura Haruno (Naruto)",
+      "Mikasa Ackerman (Attack on Titan)",
+      "Lucy Heartfilia (Fairy Tail)",
+      "Riza Hawkeye (Fullmetal Alchemist)",
+      "Maka Albarn (Soul Eater)"
+    ]
+  },
+  {
+    "pergunta": "Animes de terror ou suspense",
+    "respostas": [
+      "Another",
+      "Higurashi no Naku Koro ni",
+      "Mirai Nikki (Future Diary)",
+      "Elfen Lied",
+      "Shiki"
+    ]
+  },
+  {
+    "pergunta": "Filmes de anime clássicos",
+    "respostas": [
+      "Akira",
+      "Ghost in the Shell",
+      "Princess Mononoke",
+      "Grave of the Fireflies",
+      "Nausicaä do Vale do Vento"
+    ]
+  },
+  {
+    "pergunta": "Animes de esporte",
+    "respostas": [
+      "Haikyuu!!",
+      "Kuroko no Basket",
+      "Slam Dunk",
+      "Yuri!!! on Ice",
+      "Ping Pong the Animation"
+    ]
+  },
+  {
+    "pergunta": "Animes de slice of life",
+    "respostas": [
+      "Barakamon",
+      "March Comes in Like a Lion",
+      "Natsume's Book of Friends",
+      "Silver Spoon",
+      "Usagi Drop"
+    ]
+  },
+  {
+    "pergunta": "Protagonistas de animes shounen",
+    "respostas": [
+      "Goku (Dragon Ball)",
+      "Monkey D. Luffy (One Piece)",
+      "Naruto Uzumaki (Naruto)",
+      "Ichigo Kurosaki (Bleach)",
+      "Eren Yeager (Attack on Titan)"
+    ]
+  },
+  {
+    "pergunta": "Personagens principais de animes de romance",
+    "respostas": [
+      "Taiga Aisaka (Toradora!)",
+      "Kaori Miyazono (Your Lie in April)",
+      "Tomoya Okazaki (Clannad)",
+      "Misaki Ayuzawa (Kaichou wa Maid-sama!)",
+      "Risa Koizumi (Lovely★Complex)"
+    ]
+  },
+  {
+    "pergunta": "Antagonistas famosos em animes",
+    "respostas": [
+      "Frieza (Dragon Ball)",
+      "Dio Brando (JoJo's Bizarre Adventure)",
+      "Grimmjow Jaegerjaquez (Bleach)",
+      "Kira Yoshikage (JoJo's Bizarre Adventure)",
+      "Hisoka Morow (Hunter x Hunter)"
+    ]
+  },
+  {
+    "pergunta": "Animes com mais de 1000 episódios",
+    "respostas": [
+      "One Piece",
+      "Detective Conan"
+    ]
+  },
+  {
+    "pergunta": "Animes do gênero mecha",
+    "respostas": [
+      "Neon Genesis Evangelion",
+      "Code Geass",
+      "Mobile Suit Gundam",
+      "Tengen Toppa Gurren Lagann"
+    ]
+  },
+  {
+    "pergunta": "Animes de idols ou ídolos musicais",
+    "respostas": [
+      "Love Live!",
+      "The iDOLM@STER",
+      "Wake Up, Girls!",
+      "Zombieland Saga"
+    ]
+  },
+  {
+    "pergunta": "Animes baseados em visual novels",
+    "respostas": [
+      "Steins;Gate",
+      "Clannad",
+      "Fate/stay night",
+      "Higurashi no Naku Koro ni",
+      "Umineko no Naku Koro ni"
+    ]
+  },
+  {
+    "pergunta": "Animes que se passam em mundos de realidade virtual",
+    "respostas": [
+      "Sword Art Online",
+      "Log Horizon",
+      "Accel World",
+      "Overlord",
+      "No Game No Life"
+    ]
+  },
+  {
+    "pergunta": "Animes de terror psicológico",
+    "respostas": [
+      "Paranoia Agent",
+      "Perfect Blue",
+      "Serial Experiments Lain",
+      "Monster",
+      "When They Cry (Higurashi no Naku Koro ni)"
+    ]
+  },
+  {
+    "pergunta": "Animes dirigidos por Satoshi Kon",
+    "respostas": [
+      "Perfect Blue",
+      "Millennium Actress",
+      "Tokyo Godfathers",
+      "Paprika"
+    ]
+  },
+  {
+    "pergunta": "Animes vencedores do Prêmio da Academia Japonesa de Animação",
+    "respostas": [
+      "Spirited Away",
+      "The Girl Who Leapt Through Time",
+      "Summer Wars",
+      "Wolf Children"
+    ]
+  },
+  {
+    "pergunta": "Animes adaptados de obras literárias clássicas",
+    "respostas": [
+      "Gankutsuou: The Count of Monte Cristo",
+      "Les Misérables: Shoujo Cosette",
+      "The Rose of Versailles",
+      "Romeo × Juliet"
+    ]
+  },
+  {
+    "pergunta": "Animes que inspiraram produções live-action de sucesso",
+    "respostas": [
+      "Death Note",
+      "Attack on Titan",
+      "Fullmetal Alchemist",
+      "Parasyte: The Maxim"
+    ]
+  },
+  {
+    "pergunta": "Animes que originaram jogos de videogame populares",
+    "respostas": [
+      "Pokémon",
+      "Dragon Ball Z",
+      "Naruto",
+      "One Piece"
+    ]
+  },
+  {
+    "pergunta": "Animes que foram cancelados antes de sua conclusão",
+    "respostas": [
+      "Berserk (1997)",
+      "HUNTER x HUNTER (1999)",
+      "Claymore",
+      "NANA"
+    ]
+  },
+  {
+    "pergunta": "Animes que têm OVAs (Original Video Animations) como continuação da história principal",
+    "respostas": [
+      "Neon Genesis Evangelion",
+      "Hellsing Ultimate",
+      "FLCL (Fooly Cooly)",
+      "Elfen Lied"
+    ]
+  },
+  {
+    "pergunta": "Animes com episódios não sequenciais ou fora da ordem cronológica",
+    "respostas": [
+      "Haruhi Suzumiya no Yuuutsu (The Melancholy of Haruhi Suzumiya)",
+      "Baccano!",
+      "Durarara!!",
+      "Monogatari Series"
+    ]
+  },
+  {
+    "pergunta": "Animes que apresentam múltiplos arcos de história interligados",
+    "respostas": [
+      "JoJo's Bizarre Adventure",
+      "Gintama",
+      "Fairy Tail",
+      "Re:Zero - Starting Life in Another World"
+    ]
+  },
+  {
+    "pergunta": "Animes que foram lançados como parte do projeto 'Anime no Chikara'",
+    "respostas": [
+      "Sora no Woto",
+      "Seikimatsu Occult Gakuin",
+      "Senkou no Night Raid"
+    ]
+  },
+  {
+    "pergunta": "Animes que foram adaptados de jogos de visual novel",
+    "respostas": [
+      "Fate/stay night",
+      "Steins;Gate",
+      "Clannad"
+    ]
+  },
+  {
+    "pergunta": "Animes que têm como tema principal viagem no tempo",
+    "respostas": [
+      "Steins;Gate",
+      "Erased (Boku dake ga Inai Machi)",
+      "Re:Zero - Starting Life in Another World"
+    ]
+  },
+  {
+    "pergunta": "Personagens principais que têm uma alteração drástica de personalidade ao longo da história",
+    "respostas": [
+      "Guts (Berserk)",
+      "Vegeta (Dragon Ball Z)",
+      "Sasuke Uchiha (Naruto)",
+      "Light Yagami (Death Note)"
+    ]
+  },
+  {
+    "pergunta": "Personagens que são considerados anti-heróis",
+    "respostas": [
+      "Lelouch vi Britannia (Code Geass)",
+      "Vegeta (Dragon Ball Z)",
+      "Accelerator (Toaru Majutsu no Index)",
+      "Guts (Berserk)"
+    ]
+  },
+  {
+    "pergunta": "Personagens cujas histórias exploram intensamente o conceito de redenção",
+    "respostas": [
+      "Zuko (Avatar: The Last Airbender)",
+      "Sasuke Uchiha (Naruto)",
+      "Vegeta (Dragon Ball Z)",
+      "Gaara (Naruto)"
+    ]
+  },
+  {
+    "pergunta": "Personagens com habilidades ou poderes que trazem consequências negativas",
+    "respostas": [
+      "Meliodas (The Seven Deadly Sins)",
+      "Saitama (One Punch Man)",
+      "Ryuk (Death Note)",
+      "Alucard (Hellsing)"
+    ]
+  },
+  {
+    "pergunta": "Personagens que possuem um passado misterioso ou desconhecido",
+    "respostas": [
+      "Gon Freecss (Hunter x Hunter)",
+      "Kaname Madoka (Puella Magi Madoka Magica)",
+      "Roronoa Zoro (One Piece)",
+      "Rei Ayanami (Neon Genesis Evangelion)"
+    ]
+  },
+  {
+    "pergunta": "Personagens com dilemas morais complexos ao longo da história",
+    "respostas": [
+      "Lelouch vi Britannia (Code Geass)",
+      "Light Yagami (Death Note)",
+      "Guts (Berserk)",
+      "Spike Spiegel (Cowboy Bebop)"
+    ]
+  }
+]
