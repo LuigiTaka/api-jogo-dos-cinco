@@ -1,0 +1,5 @@
+ExpiresActive on
+
+RewriteEngine On
+
+RewriteRule ^api/pergunta$ /api/pergunta.php [L]
