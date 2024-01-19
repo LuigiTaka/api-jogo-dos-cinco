@@ -17,18 +17,3 @@ docker compose build && docker compose up -d
 ```
 
 Verifique se o servidor está rodando acessando [localhost/api/pergunta](http://localhost/api/pergunta).
-
-## Principais Recursos
-
-- Criação de perguntas e respostas.
-- Integração perfeita com o bot do Discord do "Jogo dos Cinco".
-- Projetado para oferecer uma experiência interativa e envolvente.
-
-## Exemplo Prático
-
-1. Execute o projeto usando os comandos mencionados acima.
-2. Acesse [localhost/api/pergunta](http://localhost/api/pergunta) para explorar a criação de perguntas.
-3. Integre a API ao bot do Discord para ver as perguntas em ação durante o "Jogo dos Cinco".
-
-Esperamos que você aproveite explorar a API do "Jogo dos Cinco"! Se tiver dúvidas ou sugestões, não hesite em nos
-contatar. Divirta-se!
