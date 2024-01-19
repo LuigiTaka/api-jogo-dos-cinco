@@ -1,6 +1,8 @@
 # :computer: API Jogo dos Cinco
 
-Bem-vindo à API do "Jogo dos Cinco"! Esta API foi desenvolvida para se integrar perfeitamente ao bot do Discord disponível em [bot-jogo-dos-cinco](https://github.com/LuigiTaka/bot-jogo-dos-cinco). Com a API, você pode criar perguntas e suas respectivas respostas, adicionando uma camada extra de interatividade ao jogo.
+Bem-vindo à API do "Jogo dos Cinco"! Esta API foi desenvolvida para se integrar perfeitamente ao bot do Discord
+disponível em [bot-jogo-dos-cinco](https://github.com/LuigiTaka/bot-jogo-dos-cinco). Com a API, você pode criar
+perguntas e suas respectivas respostas, adicionando uma camada extra de interatividade ao jogo.
 
 ## Sobre o Projeto
 
@@ -28,4 +30,5 @@ Verifique se o servidor está rodando acessando [localhost/api/pergunta](http://
 2. Acesse [localhost/api/pergunta](http://localhost/api/pergunta) para explorar a criação de perguntas.
 3. Integre a API ao bot do Discord para ver as perguntas em ação durante o "Jogo dos Cinco".
 
-Esperamos que você aproveite explorar a API do "Jogo dos Cinco"! Se tiver dúvidas ou sugestões, não hesite em nos contatar. Divirta-se!
+Esperamos que você aproveite explorar a API do "Jogo dos Cinco"! Se tiver dúvidas ou sugestões, não hesite em nos
+contatar. Divirta-se!
